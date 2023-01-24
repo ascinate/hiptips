@@ -103,6 +103,375 @@ $secondary-color:#221639;
 $second-color:#3141EB;
 $main-head-font: 'Sora', sans-serif;
 
+
+
+// landing
+
+
+.logo{
+	width: 80px;
+	display: inline-block;
+	transform: scale(1.4);
+}
+.login-btn span,
+.bars-btn span{
+	width: 25px;
+	display: inline-block;
+}
+.top-head{
+	position: relative;
+	height: 768px;
+	background:#fff  no-repeat;
+	background-position:30% 110px, top right;
+	background-image: url(../images/globe-img.png), url(../images/landing-bg.jpg);
+	background-repeat: no-repeat;
+	
+}
+
+.banner-stu h1 {
+    font-family: 'Sora', sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+    color: #221639;
+}
+.sb-tbn {
+    background: #f82d5e;
+    color: #fff !important;
+    font-family: 'Sora', sans-serif;
+}
+.video-id-section {
+    width: 100%;
+    display: inline-block;
+    background: #fff;
+    position: relative;
+    box-shadow: #1c172647 1px 42px 49px;
+}
+.video-id-section span {
+    position: relative;
+    width: 100%;
+    z-index: 2;
+    background: #fff;
+    display: inline-block;
+}
+.video-id-section video {
+    width: 100%;
+    display: inline-block;
+    height: 450px;
+}
+.login-btn {
+    color: #fff !important;
+    font-family: 'Sora', sans-serif;
+    font-weight: 600;
+}
+.login-btn span, .bars-btn span {
+    width: 25px;
+    display: inline-block;
+}
+.login-btn img {
+    filter: brightness(0) invert(1);
+}
+.cret-btn {
+    background: #f82d5e;
+    color: #fff !important;
+    font-family: 'Sora', sans-serif;
+    font-weight: 600;
+    margin: 0 25px;
+}
+.bars-btn img {
+    filter: brightness(0) invert(1);
+}
+.video-id-section:after {
+    position: absolute;
+    background: url(../images/dots-png.png) no-repeat;
+    content: "";
+    right: -60px;
+    top: -40px;
+    width: 232px;
+    height: 239px;
+    z-index: 1;
+}
+.topbodfy01 {
+    padding: 120px 0;
+    position: relative;
+    background: #fff no-repeat;
+    background-image: url(../images/grapicks2.png), url(../images/bg-graidendt.jpg);
+    background-position: right top, left top;
+    background-size: 12%, 100%;
+}
+.topbodfy01 figure {
+    width: 49%;
+    display: inline-block;
+    overflow: hidden;
+    margin: 0;
+    position: absolute;
+    z-index: 2;
+    left: -36px;
+    bottom: 0;
+}
+.topbodfy01 h1 {
+    font-family: 'Sora', sans-serif;
+    font-weight: 700;
+    font-size: 51px;
+    color: #221639;
+}
+.topbodfy01 p {
+    font-family: 'Sora', sans-serif;
+    font-size: 25px;
+    color: #221639;
+}
+.topbodfy02 h1 {
+    font-family: 'Sora', sans-serif;
+    font-weight: 700;
+    font-size: 46px;
+    color: #221639;
+}
+.topbodfy02 ul li {
+    width: 80%;
+    height: 72px;
+    border-radius: 19px;
+    background: #fff;
+    color: #000;
+    font-family: 'Sora', sans-serif;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    filter: drop-shadow(-1px 10px 7px rgba(50, 50, 0, 15%));
+}
+span.iconh {
+    width: 62px;
+    height: 62px;
+    background: #fff;
+    border-radius: 50%;
+    color: #000;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    font-size: 20px;
+    margin-right: 10px;
+    margin-left: 20px;
+}
+.topbodfy02 ul li span {
+    font-family: 'Sora', sans-serif;
+    font-weight: 600;
+}
+.topbodfy02 .dots-bg {
+    height: 30%;
+    left: 0;
+    position: absolute;
+    top: 40px;
+    width: 20%;
+    background: #fff url(../images/dot.png);
+    z-index: -1;
+}
+.topbodfy02 {
+    position: relative;
+    padding: 60px 0;
+}
+.iomhj {
+    height: 400px;
+    overflow: hidden;
+    border-radius: 5px;
+    filter: drop-shadow(-1px 10px 18px rgba(50, 50, 0, 0.5));
+    width: 85%;
+    margin-left: auto;
+}
+.iomhj img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    object-position: left;
+}
+.topbodfy02 {
+    padding: 60px 0 80px 0;
+    background-image: url(../images/grapicks2.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: 20%;
+}
+.comnet {
+    background: rgb(78,97,212);
+    background: linear-gradient(160deg, rgba(78,97,212,1) 0%, rgba(70,21,169,1) 53%);
+    padding: 30px 0;
+    position: relative;
+    margin-top: 80px;
+}
+.left-img-blox {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 45%;
+    min-height: 650px;
+    margin: 0;
+    bottom: 0;
+}
+.comnet h1 {
+    color: #fff;
+    font-family: 'Sora', sans-serif;
+    font-weight: 700;
+    font-size: 51px;
+}
+.comnet p {
+    color: #fff;
+    font-family: 'Sora', sans-serif;
+    font-size: 25px;
+}
+.comnet .accordion-item {
+    margin-top: 10px;
+}
+.comnet .accordion-item h2 {
+    font-family: 'Sora', sans-serif;
+    font-weight: 700;
+    color: #000;
+    margin-top: 0;
+}
+.comnet .accordion-item h2 .accordion-button {
+    font-family: 'Sora', sans-serif;
+    font-weight: 700;
+    color: rgba(70,21,169,1);
+}
+.left-img-blox img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.comnet .accordion-item p {
+    color: #000;
+    font-size: 16px;
+}
+.testimoalals {
+    background: #2b125e;
+    padding: 60px 0;
+    position: relative;
+    color: #fff;
+    min-height: 550px;
+}
+.userts-v {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    padding: 80px 0;
+    overflow: hidden;
+    background-image: url(../images/grapicks2.png), url(../images/grapicks4.png);
+    background-repeat: no-repeat;
+    background-position: right top, left bottom;
+}
+.comgh h1 {
+    font-family: 'Sora', sans-serif;
+    font-weight: 700;
+    font-size: 51px;
+    color: #221639;
+}
+.userts-v h6 {
+    font-family: 'Sora', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    color: #2b125e;
+}
+.userts-v p {
+    font-family: 'Sora', sans-serif;
+    font-size: 25px;
+    font-size: 25px;
+}
+.userts-v figure img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 2;
+    border-radius: 8px;
+}
+.userts-v figure {
+    height: 450px;
+    width: 80%;
+    position: relative;
+    margin: 0;
+    margin-left: auto;
+    filter: drop-shadow(-1px 10px 18px rgba(50, 50, 0, 0.5));
+}
+.testimoalals .left-img-blox {
+    min-height: 550px;
+    right: 0;
+    left: inherit !important;
+}
+.slider-ol h5 {
+    color: #fff;
+    font-family: 'Sora', sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+}
+.slider-ol p {
+    color: #fff;
+    font-family: 'Sora', sans-serif;
+    font-size: 20px;
+}
+.comon-head1 {
+    font-family: 'Sora', sans-serif;
+    color: #1a1f2e;
+    text-align: center;
+    font-size: 51px;
+    font-weight: 700;
+}
+.get-in-touch h5 {
+    font-family: 'Sora', sans-serif;
+    margin-bottom: 0;
+}
+.get-in-touch .form-group {
+    margin-bottom: 20px;
+}
+.get-in-touch label {
+    font-family: 'Sora', sans-serif;
+    color: #1a1f2e;
+    margin-bottom: 10px;
+}
+.get-in-touch .form-control {
+    background-color: rgba(0,0,0,0);
+    -webkit-appearance: none;
+    border: 1px solid #c1c7c8;
+    border-radius: 0;
+    color: #565f67;
+    padding: 0 1em;
+    height: 48px;
+}
+.get-in-touch textarea.form-control {
+    resize: none;
+    height: 160px;
+}
+.get-in-touch .btn-submitr {
+    background: #f82d5e;
+    color: #fff;
+    font-family: 'Sora', sans-serif;
+    border: solid 2px #f82d5e !important;
+    font-size: 20px;
+    padding: 0.65em 2.5em;
+    margin: auto;
+    display: table;
+    border-radius: 0;
+    transition: all .5s;
+    margin-top: 20px;
+}
+.get-in-touch label {
+    font-family: 'Sora', sans-serif;
+    color: #1a1f2e;
+    margin-bottom: 10px;
+}
+footer {
+    background: #000;
+    color: #fff;
+    font-size: 15px;
+}
+// landing page design ends
+
+
+
+
+
+
+
+
+
+
+
 .top-headr{
 	min-height: 212px;
 	background: $second-color url(../images/top-bg.svg) no-repeat;

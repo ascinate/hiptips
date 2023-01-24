@@ -314,3 +314,24 @@ $(".custom-select").each(function() {
 	$(this).parents(".custom-select").removeClass("opened");
 	$(this).parents(".custom-select").find(".custom-select-trigger").text($(this).text());
   });
+
+
+  $(document).ready(function(){  
+	$('.slider-ol').owlCarousel({
+	  loop: true,
+	  margin: 10,
+	  nav: false,
+	  dots:true,
+	  responsive: {
+		  0: {
+			  items:1
+		  },
+		  600: {
+			  items:1
+		  },
+		  1000: {
+			  items:1
+		  }
+	  }
+   })
+  });
